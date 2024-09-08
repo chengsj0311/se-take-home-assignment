@@ -1,0 +1,99 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FCF6ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.container {
+    background-color: #e2af61;
+    height: 600px;
+    width: 1000px;
+    border-radius: 5px;
+    border: 2px, #231706, solid;
+    display: flex;
+    flex-direction: row;
+}
+
+.status-container {
+    width: 37.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.order-container {
+    background-color: #F3DCB9;
+    width: 320px;
+    height: 500px;
+    border-radius: 5px;
+    border: 2px #231706 solid;
+    overflow-y: auto;
+}
+
+.btn-container {
+    background-color: #9c9385;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #e2af61;
+    color: rgb(0, 0, 0);
+}
+
+button {
+    background-color: rgb(83, 73, 60);
+    color: rgb(255, 255, 255);
+    transition: background-color 0.5s, color 0.5s;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    border: None;
+    box-shadow: 2px 2px 5px rgb(83, 73, 60);
+    cursor: pointer;
+}
+
+#normal-order-btn {
+    margin-top: 70px;
+}
+
+
+
+
+
+/* Source from w3schools*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px grey;
+border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: rgb(168, 164, 164);
+border-radius: 10px;
+}
